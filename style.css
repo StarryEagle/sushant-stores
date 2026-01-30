@@ -1,0 +1,115 @@
+body {
+    background: yellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f1f3f6;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(90deg, #0f2a72, #1e5ed6);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ffd700;
+}
+
+.header input {
+    margin: 0 20px;
+    padding: 8px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+}
+
+.profile {
+    margin-left: auto;
+}
+
+/* BANNER */
+.banner {
+    background: linear-gradient(120deg, #0b1d51, #1f6ae1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    font-size: 36px;
+}
+
+.banner h2 {
+    color: #ffd700;
+    margin-top: 10px;
+}
+
+.sale {
+    background: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.banner img {
+    width: 250px;
+}
+
+/* CATEGORIES */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.cat {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* PRODUCT CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.card img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.orange { background: linear-gradient(135deg, #ff7a18, #ffb347); }
+.green  { background: linear-gradient(135deg, #00b09b, #96c93d); }
+.blue   { background: linear-gradient(135deg, #2193b0, #6dd5ed); }
